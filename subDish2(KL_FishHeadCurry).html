@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Foodies House</title>
+		<link rel="stylesheet" href="subDish2(KL_FishHeadCurry).css" type="text/css"/>
+</head>
+<!--subDish2_KL(FHC)-->
+<body>
+	<blockquote><img src="Gallery/FoodiesHouse.png" alt="logo" height="87" width="300">
+	<div id="container">
+		<nav>
+			<ul>
+				<li><a href="index.html"> HOME </a></li>
+				<li><a href="#"> EATERY</a>
+					<ul>
+						<li><a href="subDish1(KL).html">Kuala Lumpur </a></li>
+						<li><a href="subDish1(PERAK).html"> Perak </a></li>
+						<li><a href="subDish1(MELAKA).html"> Melaka </a></li>
+						<li><a href="subDish1(PP).html"> Pulau Pinang </a></li>
+						<li><a href="subDish1(JB).html"> Johor Bahru </a></li>
+					</ul>
+				</li>
+				<li><a href="suggestion_page.html"> SUGGESTION </a></li>
+				<li><a href="#"> ABOUT US </a></li>
+			</ul>
+		</nav>
+	</div>
+	<br>
+	<div>
+		<article class="topcontent">
+	<div class="w3-content w3-section">
+		<img class="mySlides" src="Gallery/SotongFriedChicken.jpg" alt="SotongFriedChicken" width="450" height="290">
+		<img class="mySlides" src="Gallery/FishHeadCurry.jpg" alt="FishHeadCurry" width="450" height="290">
+		<img class="mySlides" src="Gallery/SquidCurry.jpg" alt="SquidCurry"  width="450" height="290">
+		<img class="mySlides" src="Gallery/FishHeadCurry.jpg" alt="FishHeadCurry"  width="450" height="290">
+	</div>
+	<script>
+			var myIndex = 0;
+			carousel();
+			function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 4000);    
+			}
+	</script>
+			<h2><ins>Fish Head Curry</ins></h2>    
+			<p>This is the best Fish Head Curry served in Anuar's Fish Head Curry, Kuala Lumpur. The dish is known for almost four decades,
+				it attracts a lot of local customers. There are limited choices here, apart from the fish head and chicken, you can have fried fish
+				and squid as well as some stir-fried bean sprouts. While there are some variations to the way fish head curry is cooked, it is sometime
+				cooked with coconut milk for a creamier texture, the gravy is slightly sour from the tamarind paste.<br><br>
+				This spicy dish of curry is cooked with vegetables. The fish is well cooked and served hot, not like kept on table and be ready to be taken by customers. The dish uses spices and ingredients necessary for making a good curry base. The South Indian cooking style is obvious when savouring Anuar’s fish head curry. They also serve delicious fried chicken, which we highly recommend you to try it. We found that, it was quite enjoyable with rice. There is also a enough amount of okra to complement the dish.<br><br>
+				You can either order the type of fish you want, or the staff will pick any one depending on its size and the number of people dining.
+				The fish served here include mackerel and red snapper. The way they fry the chicken is like any of the Mamak restaurants. Even thought
+				the pieces were small, they were perfectly seasoned and fried well. It was a satisfying meal when included with the bean sprouts, fish curry and warm rice.
+			</p>
+		</article>
+	</div>
+	<br>
+	<div>
+		<article class="bottomcontent">
+			<img src="Gallery/FHC_MAP.PNG" width="677" height="355" alt="cups" usemap="#FHC_MAP"/>
+			<map name="FHC_MAP">
+				<area shape="circle" coords="350,126,110" href="https://www.google.com.my/maps/place/Annuar's+Fish+Head+Curry/@3.1282019,101.668708,20.02z/data=!4m5!3m4!1s0x31cc499913497817:0x412d3191674de9f1!8m2!3d3.1284232!4d101.6688403" alt="Anuar's Fish Head Curry"/>
+			</map>
+		<h3>Price:</h3>
+			<ul>
+				<li>Fish Head Curry varies from RM 20.00 to RM 80.00</li>
+				<li>A piece of chicken for RM 2.50</li>
+				<li>Additional Rice for RM 0.50</li>
+			</ul>
+		<h3>Business hours:</h3>
+			<ul>
+				<li>Monday to Thursday : 8 A.M to 5 P.M</li>
+				<li>Fridays : 8:30 A.M to 5 P.M</li>
+				<li>Saturday : 8 A.M to 5 P.M</li>
+			</ul>
+		<h3>Location:</h3>
+			<ul>
+				<li>No 2 Lorong Ara Kiri 3,<br>
+					Lucky Garden, Bangsar, Kuala Lumpur.<br><br>
+					Phone: +60 16-677 7703
+				</li>
+			</ul>
+		</article>
+	</div>
+	<div>
+		<article class="comment">
+			<form id="simpleform">
+			<div>
+				<h2><label>Review</label></h2>
+				<textarea name="comments" rows="8" cols="180" placeholder="Write your reveviews here."></textarea>
+			</div>
+				
+			<div id="thesubmit">
+				<input type="image" src="Gallery/submit.png" alt="submit" width="150" height="65" />
+			</div>
+			</form>
+		</article>
+	</div>
+	<div class="socialMedia">
+		<img src="Gallery/facebook.png" alt="logo" width="100" height="100" usemap="#facebook_App" />
+			<map name="facebook_App">
+				<area shape="circle" coords="340,80,110" href="https://www.facebook.com/" alt="facebook" />
+			</map>
+		<img src="Gallery/instagram.png" alt="logo" width="100" height="100" usemap="#instagram_App"/>
+			<map name="instagram_App">
+				<area shape="circle" coords="340,80,110" href="https://www.instagram.com/accounts/login/" alt="instagram"/>
+			</map>
+	</div>
+	<footer class="mainFooter">
+		<p>Copyright &copy; 2017 Foodies House</p>
+	</footer>
+
+	</blockquote>
+</body>
+</html>

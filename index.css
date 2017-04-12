@@ -1,0 +1,112 @@
+body { font-family:Arial,sans-serif;
+		color: white;}
+h1 {	color: black;} 
+#yls {float:right;
+	margin: 0 0 5px 5px;
+	border: 1px solid #000000;
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+#container ul{
+list-style:none;
+padding:0px;
+}
+#container nav{
+	background: #666;
+	height: 50px;
+	border-radius:10px;
+}
+
+#container ul li{
+background-color:#666;
+width:150px;
+height:50px;
+border-radius:15px;
+line-height:50px;
+text-align:center;
+float:left;
+color:#ffffff;
+font-size:18px;
+position:relative;
+}
+
+#container ul li:hover{
+background-color:#44DD11;
+}
+
+#container ul ul{
+display:none;
+}
+
+#container ul li:hover > ul{
+display:block;
+}
+
+#container ul ul ul{
+margin-left:150px;
+top:0px;
+position:absolute;
+}
+
+figure { margin: 10px;
+}
+
+.topcontent {
+		background-color: #666;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 2% 2% 9%;
+		margin-bottom: 0%;
+}
+.middlecontent {
+		background-color: #666;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 2% 2% 8%;
+		margin-bottom: 0%;
+}
+
+.bottomcontent {
+		background-color: #666;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;	
+		padding: 2% 2% 5%;
+		margin-bottom: 0%;
+}
+
+body { 
+	background-color: #E9E9E9;
+	font-family: calibri;
+}
+
+.mainFooter {
+		width: 100%;
+		float: left;
+		margin: 2% 0;
+		padding-left: 0;
+		background-color: #666;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		color: #FFF;	
+		text-align: center;
+	}
+	
+.mainFooter p {
+		width: 86%;
+		margin: 1% auto;
+	}
+article img{ margin-right: 20px;
+			float : left; }	
+			
+article h2  p { float : right; }
+
+.socialMedia img {margin: auto;
+    width: 10%;
+    padding: 0px 0px 0px 320px}
