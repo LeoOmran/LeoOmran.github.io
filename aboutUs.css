@@ -10,7 +10,7 @@ a:visited {
 	text-decoration: none;	
 }
 
-.white{color:white;}
+
 
 
 #container ul{
@@ -46,12 +46,6 @@ display:none;
 
 #container ul li:hover > ul{
 display:block;
-}
-
-#container ul ul ul{
-margin-left:150px;
-top:0px;
-position:absolute;
 }
 
 figure { margin: 10px;

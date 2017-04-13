@@ -1,15 +1,18 @@
-body { font-family:Arial,sans-serif;
-		color: white;}
-h1 {	color: black;} 
+body { color: white;}
+h1{color: black;} 
 #yls {float:right;
 	margin: 0 0 5px 5px;
 	border: 1px solid #000000;
 }
 
-a:link, a:visited {
+a:visited {
 	color: white;
-	text-decoration: none;
+	text-decoration: none;	
 }
+
+.white{color:white;}
+
+
 #container ul{
 list-style:none;
 padding:0px;
@@ -28,7 +31,7 @@ border-radius:15px;
 line-height:50px;
 text-align:center;
 float:left;
-color:#ffffff;
+color: black;
 font-size:18px;
 position:relative;
 }
@@ -59,16 +62,15 @@ figure { margin: 10px;
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;	
-		padding: 2% 2% 3%;
+		padding: 2% 2% 2%;
 		margin-bottom: 0%;
 }
-
 .bottomcontent {
 		background-color: #666;
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;	
-		padding: 2% 2% 5%;
+		padding: 2% 2% 2%;
 		margin-bottom: 0%;
 }
 
@@ -94,47 +96,7 @@ body {
 		width: 86%;
 		margin: 1% auto;
 	}
-	article img {
-	margin-right: 20px;
-	float:left;
-	}
-	
+
 	.socialMedia img {margin: auto;
     width: 10%;
     padding: 0px 0px 0px 320px}
-	
-.comment {
-		border-radius: 5px;	
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-		padding: 2% 2% 4%;
-		margin-bottom: 0%;
-	}
-	
-label {
-		width:400px;
-		text-align:center;
-		padding-right: 12px;
-		margin-top: -5px;
-		margin-right:50px;
-		clear:left;
-		font-size:50px;
-		color:white;
-	}
-		
-textarea {margin-top:-11px;
-		margin-right:50px;}
-		
-#simpleform {
-	background-color: #666;
-	height:250px;
-	width:96%;
-	padding: 2% 2% 4%;
-}
-
-#thesubmit{ 
-	margin-left:1130px;
-	margin-top:-12px;
-	padding: 15px;
-	
-	}

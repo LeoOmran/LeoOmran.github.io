@@ -58,17 +58,16 @@ figure { margin: 10px;
 		background-color: #666;
 		border-radius: 5px;
 		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;	
-		padding: 2% 2% 3%;
+		-webkit-border-radius: 5px;
+		padding: 2% 2% 1%;
 		margin-bottom: 0%;
 }
-
 .bottomcontent {
 		background-color: #666;
 		border-radius: 5px;
 		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;	
-		padding: 2% 2% 5%;
+		-webkit-border-radius: 5px;
+		padding: 2% 2% 8%;
 		margin-bottom: 0%;
 }
 
@@ -85,7 +84,7 @@ body {
 		background-color: #666;
 		border-radius: 5px;
 		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;	
+		-webkit-border-radius: 5px;
 		color: #FFF;	
 		text-align: center;
 	}
@@ -98,6 +97,8 @@ body {
 	margin-right: 20px;
 	float:left;
 	}
+
+	article h2  p { float : right; }
 	
 	.socialMedia img {margin: auto;
     width: 10%;

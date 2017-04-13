@@ -10,13 +10,9 @@ a:link, a:visited {
 	color: white;
 	text-decoration: none;
 }
-*{
-margin:50px;
-padding:0px;
-}
-
 #container ul{
 list-style:none;
+padding:0px;
 }
 #container nav{
 	background: #666;
@@ -66,6 +62,7 @@ figure { margin: 10px;
 		padding: 2% 2% 1%;
 		margin-bottom: 0%;
 }
+
 .bottomcontent {
 		background-color: #666;
 		border-radius: 5px;
